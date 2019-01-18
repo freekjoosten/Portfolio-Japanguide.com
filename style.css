@@ -3,7 +3,46 @@
   }
 
   body {
+    margin: 0px;
     font-family: 'Libre Franklin', sans-serif;
     display: flex;
     flex-direction: column;
 }
+
+/* HERO */
+
+.hero {
+    background-image: url(https://www.japan-guide.com/g17/home_1712_fujisan.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    height: 30rem;
+}
+
+.hero_img {
+    object-fit: cover;
+    width: inherit;
+    height: inherit;
+    position: absolute;
+    left: -70%;
+    
+}
+
+.menu_bar {
+    display: flex;
+    justify-content: space-between;
+    z-index: 2;
+}
+
+.hero_wrap {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    
+}
+.hero_story {
+    margin: 50px;
+    color: white;
+}
+
