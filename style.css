@@ -46,3 +46,79 @@
     color: white;
 }
 
+/* Stories hieronder */
+
+.stories {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.topstory {
+    padding: 0.2rem;
+    margin: 0.5rem;
+    display: inline-block;
+    position: relative;
+}
+
+.topstory_img {
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+}
+
+.topstory_wrapper {
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+}
+
+.topstory_header {
+    color: white;
+    font-weight: 900;
+    font-size: 2rem;
+    margin: 0.2rem 0rem;
+}
+
+.topstory_sub {
+    color: white;
+    font-weight: 400;
+    font-size: 1rem;
+    margin: 0.2rem 0rem;
+}
+
+.stories_header {
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    color: lightgrey;
+    font-weight: 700;
+    margin-left: 0.8rem;
+}
+
+.stories_header::before {
+    content: "";
+    width: 0.2rem;
+    position: absolute;
+    left: 0.1rem;
+    height: 0.6rem;
+}
+
+.sponsored::before {
+    background: green;
+}
+
+.story {
+    padding: 0.2rem;
+    margin: 0 0.5rem;
+    display: flex;
+}
+
+.story_img {
+    max-width: 35%;
+    object-fit: cover;
+    flex: 1 1 auto;
+}
+
+.story_hgroup {
+    flex: 3 1 auto;
+}
